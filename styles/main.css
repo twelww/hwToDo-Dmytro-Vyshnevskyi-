@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "grenadine-mvb", sans-serif;
+    src: url(https://use.typekit.net/rbn4dmt.css);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "grenadine-mvb", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container_main {
+    background-color: #ff33ae;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.container_new_todo {
+    width: 30%;
+    height: 150px;
+    margin-bottom: -80px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px rgb(155, 154, 154);
+}
+
+.container_new_todo div {
+    width: 100%;
+    font-size: 10pt;
+}
+
+.create_new_todo  {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.create_new_todo input {
+   padding: 3% 5%;
+   width: 70%;
+   border: 1px solid silver;
+}
+
+.create_new_todo button {
+   padding: 3% 10%; 
+   border: 0;
+   background-color: #ff33ae;
+   color: white;
+   border-radius: 5px;
+}
+
+.container_wrapper {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 30%;
+    box-shadow: 3px 3px 10px rgb(155, 154, 154);
+}
+
+.wrapper > ul > li {
+    border: 1px solid silver;
+    padding: 20px;
+    list-style: none;
+}
